@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSON在线解析及格式化验证 </title>
+    <meta content="json，json在线解析,json格式化,json格式验证,json在线,JSON校验,json tools,jsons在线解析格式化,在线解析json,json格式,json5,JSON5,Json5" name="keywords">
+    <link href="static/css/home-1589270335000.css" rel="stylesheet">
+    <link href="static/css/font-awesome.min.css" rel="stylesheet">
+    <link href="static/css/base.css" rel="stylesheet">
+    <link href="static/css/public.css" rel="stylesheet">
+
+    <!-- 搜索框 -->
+    <link href="static/css/zui.min.css" rel="stylesheet">
+    <link href="static/css/chosen.min.css" rel="stylesheet">
+    <link href="static/css/header.css" rel="stylesheet">
+    <link href="static/css/home-json.css" rel="stylesheet">
+    <style>
+        .numberedtextarea-line-numbers{
+            z-index: 999;
+        }
+        #line-num{
+            z-index: 1!important;
+            width: 50px; 
+        }
+        .editor-full-screen{
+            width: 100% !important;
+            height: 100% !important;
+            position: fixed!important;
+            top: 0;
+            left: 0;
+            z-index: 999;
+            background: #fff;
+        }
+        .overflow-hidden{
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body class="bg-color-f7">
+
+
+<style>
+    .myNotice{
+        display: inline-block;
+    }
+    .hasNotice{
+        position: relative;
+    }
+    .myNotice.hasNotice:after{
+        content: '';
+        width: 8px;
+        height: 8px;
+        border-radius: 8px;
+        background-color: red;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    a.hasNotice:after{
+        left: 10px;
+        top: 50% !important;
+        margin-top: -4px;
+    }
+</style>
+<header class="header">
+    <div class="row-fluid" style="padding: 0 20px">
+        <!-- 导航模块-->
+         <div class="header-nav-list first-nav comt-top-nva" style="position:relative;">
+            <a class="logo" href="#" style="color:#D9534F;font-size: 34px;padding: 0">
+                json5.<span style="color:#2D3748;">cc</span></a>
+             <div class="dropdown dropdown-hover">
+                <a href="json5.html" type="button" class=" custom-btn">
+                    Json格式化
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-w1">
+                    
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="json.html">Json在线解析</a>
+                        </li>
+                    
+                        <li role="presentation">
+                            <a role="menuitem" tabindex="-1" href="json5.html">Json5在线解析</a>
+                        </li>
+                    
+                                    </ul>
+            </div>
+
+         
+            <div class="dropdown dropdown-hover" id="dropdown4  " data-target="#dropdown4">
+                <a href="/blog/" class="dropdown-toggle t-c-3">博客</a>
+            </div> 
+            <div class="dropdown dropdown-hover" id="dropdown4  " data-target="#dropdown4">
+                <a href="/feedback.html" class="dropdown-toggle t-c-3">问题反馈</a>
+            </div>
+            <div class="dropdown dropdown-hover" id="dropdown4  " data-target="#dropdown4">
+                <a href="https://www.json.cn/" class="dropdown-toggle t-c-3">更多工具</a>
+            </div>
+        </div>
+
+        <br style="clear:both;">
+    </div>
+</header>
+
+<div class="container">
+    <h3>在线解析json</h3>
+</div>
+<main class="row-fluid editor-con" style="font-family: 'menlo','monospace', 'Tahoma','宋体','幼圆'!important">
+    <!--    <div class="container" >-->
+    <div class="col-md-5 col-xs-5" style="padding:0px;height:100%;">
+        <textarea id="json-src" placeholder="请输入json字符串..." class="form-control common-font-size" style="height:100%;padding:10px 10px 10px 30px;border:0;border-right:solid 1px #E5EBEE;    position: relative; z-index: 999;border-bottom:solid 1px #eee;border-radius:0;resize: none; outline:none;"></textarea>
+    </div>
+    <div id="dragEle"></div>
+    <div class="col-md-7 col-xs-7" style="padding:0;position:relative;height:100%;">
+        <div class="tool" style="position:absolute;">
+            <div style="display: inline-block;vertical-align: top;line-height: 100%">
+                <a href="#" class="tip clear" title="清空" data-placement="bottom"><i class="fa fa-trash-o"></i></a>
+
+                <a href="#" class="tip shown" title="显示行号" data-placement="bottom"><i class="fa fa-th-list"></i></a>
+                <a href="#" class="tip zip2" title="压缩" data-placement="bottom" ><i class="fa fa-minus-square"></i></a>     
+                <a href="#" class="tip unzip2" title="展开" data-placement="bottom"><i class="fa fa-plus-square"></i></a>  
+                <a href="#" class="tip copy" title="复制" data-clipboard-target="#json-target" data-placement="bottom"><i class="fa fa-copy"></i></a>
+
+             
+
+            </div>
+
+        </div>
+        <div id="right-box" class="common-font-size bg-color-ff" style="width:100%;height: 100%;border:solid 1px #f6f6f6;border-radius:0;resize: none;overflow-y:scroll; outline:none;position:relative;padding-top:56px;">
+          
+            <div id="hidden-message-box" class="alert alert-danger alert-dismissible" role="alert" style="display:none;margin-bottom:0;padding:10px 2vw;font-size: calc(var(--target) + 4px);">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <p><i class="fa fa-bell" aria-hidden="true"></i>
+                    提示：
+                    <span id="hidden-message">
+                      默认警告
+                  </span>
+
+                </p>
+            </div>
+
+            <div class="ro" id="json-target" style="padding:0px 25px;white-space: pre-line;word-wrap:break-word;">
+            </div>
+        </div>
+    </div>
+    <br style="clear:both;">
+    <!--    </div>-->
+</main>
+
+<!-- 底部 -->
+<script data-ad-client="ca-pub-0888257628527075" async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<footer class="relative b-large-margin">
+    <div class="container">
+        <span style="font-size: 18px; vertical-align: middle;">当前位置：</span>
+
+    </div>
+   </footer>
+
+
+
+</div> -->
+<script src="static/js/lang.js"></script>
+<script src="static/js/login.js"></script>
+<script src="static/js/footer.js"></script>
+<style>
+    .popup-link-info-box {
+        position: absolute;
+        right: 58px;
+        top: 0;
+        background-color: #fff;
+        -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        padding: 15px;
+        display: none;
+    }
+
+    .popup-link-info-box li {
+        float: left;
+        margin-right: 10px;
+        border: 1px solid #eee;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .popup-link-info-box li p {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .popup-link-info-box li p span {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .popup-link-info-box li .popup-wechat-wrapper {}
+
+    .popup-link-info-box li .popup-wechat-wrapper img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+</style>
+
+
+<link href="static/css/jquery.numberedtextarea.css" rel="stylesheet">
+
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/jquery.message.js"></script>
+<script src="static/js/bignumber.min.js"></script>
+<script src="static/js/jquery.json.js"></script>
+<script src="static/js/jquery.xml2json.js"></script>
+<script src="static/js/jquery.json2xml.js"></script>
+<script src="static/js/json2.js"></script>
+<script src="static/js/jsonlint.js"></script>
+<script src="static/js/clipboard.min.js"></script>
+<script src="static/js/FileSaver.min.js"></script>
+<script src="static/js/jquery.numberedtextarea.js"></script>
+<script src="static/js/drag.js"></script>
+<script type="text/javascript" src="static/js/jquery.cookie.js"></script>
+<script src="static/js/new-common.js"></script>
+<script src="static/js/zui.min.js"></script>
+<script src="static/js/jsononline.js"></script>
+<script src='static/js/ace.js'></script>
+<script src='static/js/json5tools-min.js'></script>
+
+
+
+</body>
+</html>

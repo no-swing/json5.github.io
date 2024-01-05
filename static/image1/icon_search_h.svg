@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/搜索备份</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 0 0.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="搜索-hover" transform="translate(-1230.000000, -44.000000)">
+            <g id="icon/搜索备份" transform="translate(1230.000000, 44.000000)" filter="url(#filter-1)">
+                <g>
+                    <circle id="椭圆形" stroke="#000000" stroke-width="1.5" cx="11.5" cy="11" r="6.25"></circle>
+                    <line x1="19.5" y1="19.5" x2="16" y2="16" id="路径-2" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

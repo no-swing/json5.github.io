@@ -1,0 +1,8 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <title>复-不可点02</title>
+  <g>
+    <rect x="0.5" y="0.5" width="15" height="15" style="fill: #f7f8fa"/>
+    <path d="M15,1V15H1V1H15m1-1H0V16H16Z" style="fill: #ddd"/>
+  </g>
+  <polygon points="13.8 5.4 12.5 4 6.5 10.3 4.1 7.8 2.8 9.2 5.2 11.6 5.2 11.6 6.5 13 7.8 11.6 7.8 11.6 13.8 5.4" style="fill: #ddd"/>
+</svg>

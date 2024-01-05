@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="182px" height="76px" viewBox="0 0 182 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>活动推荐/浅色_移动</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.0744545%" y1="49.2977232%" x2="90.3972679%" y2="51.060672%" id="linearGradient-1">
+            <stop stop-color="#EDF4FA" offset="0%"></stop>
+            <stop stop-color="#EEF3F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="活动推荐/浅色_移动" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-3">
+            <polygon id="路径" fill="#F9FDFF" points="181.73913 0 181.73913 20.8964076 140.364248 35.1429223 87.2885033 21.909653 150.918756 0"></polygon>
+            <polygon id="路径" fill="#F7FBFF" points="181.73913 25.5560698 181.73913 45.4588392 148.213347 37.0999227"></polygon>
+            <polygon id="路径" fill="#F0F5F8" points="181.73913 55.0588106 181.73913 71.920179 153.336521 64.8386132 181.73913 55.0588106"></polygon>
+            <polygon id="路径" fill="#F1F7FC" points="6.60869565 53.6786199 0.229597877 52.0067722 6.60869565 49.6899386 35.066283 39.8912055 88.1420273 53.1244748 52.9655928 65.2366925"></polygon>
+            <polygon id="路径" fill="url(#linearGradient-1)" points="35.3620075 76 95.991127 55.0814751 178.985507 76"></polygon>
+            <polygon id="路径" fill="#F8FCFF" points="42.7149507 37.257558 79.6398356 24.5433005 132.71558 37.7765698 95.790695 50.4908273"></polygon>
+        </g>
+    </g>
+</svg>

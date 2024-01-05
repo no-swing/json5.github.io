@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="12px" viewBox="0 0 10 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径@2x</title>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="-1.40078921e-14%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FCF2DE" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="ECS低价卡片" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="✅确认版-PC备份" transform="translate(-218, -1742)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="编组-12备份-2" transform="translate(213, 1738)">
+                <g id="hot-for-atmosphere" transform="translate(4, 4)">
+                    <path d="M8.77428516,4.13514844 C8.39056641,3.66057422 8.42371875,5.15342578 7.97541797,4.92571875 C7.52714062,4.698 7.65800391,1.57543359 4.93828125,0.774574219 C3.85113281,0.454570312 5.36914453,3.33343359 3.71514844,4.66228125 C2.06085937,5.99085937 -0.279140625,8.87828906 5.0465625,11.25 C5.0465625,11.25 2.28799219,8.09285156 5.84513672,6.24343359 C6.66113672,5.81914453 5.57883984,7.29741797 6.91027734,8.35142578 C8.24170312,9.40571484 6.91027734,11.25 6.91027734,11.25 C6.91027734,11.25 12.9605508,9.31571484 8.77427344,4.13514844 L8.77428516,4.13514844 Z" id="路径"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

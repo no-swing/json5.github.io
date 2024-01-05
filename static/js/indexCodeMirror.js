@@ -1,0 +1,7 @@
+// @koala-prepend "component/codemirror/codemirror.js"
+// @koala-prepend "component/codemirror/javascript.js"
+// @koala-prepend "component/codemirror/foldcode.js"
+// @koala-prepend "component/codemirror/foldgutter.js"
+// @koala-prepend "component/codemirror/brace-fold.js"
+// @koala-prepend "component/codemirror/comment-fold.js"
+// @koala-prepend "component/codemirror/formatting.js"

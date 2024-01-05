@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" width="32px" height="32px" class="design-iconfont">
+  <defs>
+    <path id="iom7i3az9a" d="M0 0L1920 0 1920 326 0 326z"/>
+    <path id="kzjhxgwdyc" d="M30 0A30 30 0 1 0 30 60A30 30 0 1 0 30 0Z"/>
+    <filter x="-70%" y="-70%" width="240%" height="240%" id="qe8y9qyd7b">
+      <feOffset dx="-8" dy="-8" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feOffset dx="8" dy="8" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0.215686275 0 0 0 0 0.388562092 0 0 0 0 0.666666667 0 0 0 0.1 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#FFF" transform="matrix(1 0 0 -1 -944 184)" xlink:href="#iom7i3az9a"/>
+    <g transform="translate(-14 -14)">
+      <use fill="#000" filter="url(#qe8y9qyd7b)" xlink:href="#kzjhxgwdyc"/>
+      <path stroke="#FFF" stroke-width="2" stroke-linejoin="square" fill="#0052D9" d="M30 1A29 29 0 1 0 30 59A29 29 0 1 0 30 1Z"/>
+    </g>
+    <path d="M-9.09494702e-13,-9.09494702e-13 L2,-9.09494702e-13 L2,7.399 L17,7.4 L17,9.4 L-1.36424205e-12,9.4 L-9.09494702e-13,-9.09494702e-13 Z" transform="rotate(-45 23.36396103 -.45685425)" fill="#FFF" fill-rule="nonzero"/>
+    <path d="M-9.09494702e-13,-9.09494702e-13 L2,-9.09494702e-13 L2,7.399 L17,7.4 L17,9.4 L-1.36424205e-12,9.4 L-9.09494702e-13,-9.09494702e-13 Z" transform="rotate(-45 23.36396103 -.45685425)" fill="#FFF" fill-rule="nonzero"/>
+  </g>
+</svg>

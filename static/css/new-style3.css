@@ -1,0 +1,10 @@
+.left-nav-container{
+    /*border-right: 1px dashed #ddd;*/
+}
+.left-nav-container ul li a{
+    border-bottom: 1px dashed #ddd;
+}
+.left-nav-container ul li.active a{
+    background-color: #0fd59d;
+    color: #ffffff;
+}

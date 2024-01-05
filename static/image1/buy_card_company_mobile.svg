@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="18px" viewBox="0 0 72 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>label/移动端企业新用户</title>
+    <g id="label/移动端企业新用户" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M71.5,0.5 L71.5,17.5 L3.73167705,17.5 L3.73097351,12.6555278 L0.653551434,8.99995806 L3.73097351,5.34343583 L3.73167704,0.5 L71.5,0.5 Z" id="形状结合" stroke="#47C4FF" fill="#F4FCFF" fill-rule="nonzero"></path>
+        <text id="企业新用户" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" fill="#00A4FF">
+            <tspan x="8" y="13">企业新用户</tspan>
+        </text>
+    </g>
+</svg>

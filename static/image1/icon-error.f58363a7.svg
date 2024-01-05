@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>画板</title>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M8,0 C12.4183,0 16,3.58172 16,8 C16,12.4183 12.4183,16 8,16 C3.58172,16 0,12.4183 0,8 C0,3.58172 3.58172,0 8,0 Z M8,2 C4.691,2 2,4.691 2,8 C2,11.309 4.691,14 8,14 C11.309,14 14,11.309 14,8 C14,4.691 11.309,2 8,2 Z M8.57122,10.2858 L8.57122,12.0001 L6.85693,12.0001 L6.85693,10.2858 L8.57122,10.2858 Z M8.57122,4 L8.57122,9.14287 L6.85693,9.14287 L6.85693,4 L8.57122,4 Z" id="形状结合" fill="#F64041" fill-rule="nonzero"></path>
+    </g>
+</svg>

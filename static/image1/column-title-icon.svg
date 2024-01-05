@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="8px" viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Public Icon / 16 / dropdown-M / active备份</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.349020 0 0 0 0 0.349020 0 0 0 0 0.349020 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Public-Icon-/-16-/-dropdown-M-/-active备份" transform="translate(-269.000000, -198.000000)">
+            <g transform="translate(273.000000, 202.000000) rotate(-270.000000) translate(-273.000000, -202.000000) translate(269.000000, 198.000000)">
+                <path d="M6.89234537,2.34751292 C7.03928038,2.2097735 7.26834648,2.21907849 7.4039788,2.36829619 C7.52728091,2.50394865 7.53091776,2.70853251 7.42016553,2.84809415 L7.38351346,2.88787802 L4.57302945,5.52247413 C4.26844505,5.80799679 3.80866962,5.82479224 3.48582745,5.57286049 L3.42697055,5.52247413 L0.616486538,2.88787802 C0.469551519,2.7501386 0.460388876,2.51751389 0.5960212,2.36829619 C0.719323314,2.23264374 0.919843416,2.21262162 1.06567704,2.313588 L1.10765463,2.34751292 L3.91813865,4.98210904 C3.95666495,5.01822425 4.01257182,5.02424346 4.05689164,5.00016665 L4.08186135,4.98210904 L6.89234537,2.34751292 Z" id="Path-12-Copy" stroke="#595959" stroke-width="0.5" fill="#000000" transform="translate(4.000000, 4.000000) scale(1, -1) translate(-4.000000, -4.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

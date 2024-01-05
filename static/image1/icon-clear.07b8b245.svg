@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>close</title>
+    <g id="close" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 Z M16.2426407,6.34314575 L12,10.586 L7.75735931,6.34314575 L6.34314575,7.75735931 L10.586,12 L6.34314575,16.2426407 L7.75735931,17.6568542 L12,13.414 L16.2426407,17.6568542 L17.6568542,16.2426407 L13.414,12 L17.6568542,7.75735931 L16.2426407,6.34314575 Z" id="形状结合" fill="#BCC4D0"></path>
+    </g>
+</svg>

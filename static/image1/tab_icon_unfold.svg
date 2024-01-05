@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>mdpi/展开-移动端</title>
+    <g id="企业上云" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="企业场景购-移动端" transform="translate(-343.000000, -1303.000000)" fill="#666666" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(-1.000000, 0.000000)">
+                <g id="Group-Copy" transform="translate(1.000000, 1287.000000)">
+                    <g id="icon-/-more-16x16" transform="translate(343.000000, 16.000000)">
+                        <g id="Group" transform="translate(8.000000, 6.700000) rotate(-135.000000) translate(-8.000000, -6.700000) translate(4.000000, 2.700000)">
+                            <polygon id="Path-2" points="1.5 0 1.5 8 0 8 0 0"></polygon>
+                            <polygon id="Path-2" points="8 0 8 1.5 0 1.5 0 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

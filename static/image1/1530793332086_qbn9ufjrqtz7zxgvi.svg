@@ -1,0 +1,7 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <title>复-常态</title>
+  <g>
+    <rect x="0.5" y="0.5" width="15" height="15" style="fill: #fff"/>
+    <path d="M15,1V15H1V1H15m1-1H0V16H16V0Z" style="fill: #ddd"/>
+  </g>
+</svg>

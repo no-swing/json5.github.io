@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>side_nav_close_mobile</title>
+    <g id="国网" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="国网-换色素材-2" transform="translate(-275.000000, -528.000000)">
+            <g id="side_nav_close_mobile" transform="translate(275.000000, 528.000000)">
+                <g id="椭圆形" fill="#FFFFFF" fill-opacity="0.90272618" stroke="#E8EBF2">
+                    <circle id="Oval" cx="24" cy="24" r="23.5"></circle>
+                </g>
+                <polygon id="路径" fill="#00A4FF" fill-rule="nonzero" points="31.1421356 18.4142136 25.4852814 24.0710678 31.1421356 29.7279221 29.7279221 31.1421356 24.0710678 25.4852814 18.4142136 31.1421356 17 29.7279221 22.6568542 24.0710678 17 18.4142136 18.4142136 17 24.0710678 22.6568542 29.7279221 17"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

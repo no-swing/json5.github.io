@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>画板</title>
+    <desc>Created with Sketch.</desc>
+    <g id="画板" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-2">
+            <rect id="矩形" x="0" y="0" width="24" height="24"></rect>
+            <g id="Group-9" transform="translate(5.000000, 4.000000)" fill="#FFFFFF">
+                <polygon id="矩形" transform="translate(7.071068, 8.017018) rotate(-45.000000) translate(-7.071068, -8.017018) " points="-1.91102174 6.99910781 16.0486798 7.03940631 16.0531574 9.0349287 -1.90654413 8.99463019"></polygon>
+                <polygon id="矩形" transform="translate(7.071068, 8.017018) rotate(-135.000000) translate(-7.071068, -8.017018) " points="-1.90654413 7.03940631 16.0531574 6.99910781 16.0486798 8.99463019 -1.91102174 9.0349287"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

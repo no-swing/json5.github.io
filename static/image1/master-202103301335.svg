@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><svg width="110" height="98" viewBox="0 0 110 98" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><svg id="c-dialog-icon-confirm-error" width="34" height="34" viewBox="-1 -1 34 34" x="76"><style>.ast0{fill:#e54545}</style><path class="ast0" d="M14.5 23.7h3.1v-3.1h-3.1v3.1zm0-5.1h3.1V8.3h-3.1v10.3zM16 0C7.2 0 0 7.2 0 16s7.2 16 16 16 16-7.2 16-16S24.8 0 16 0zm0 28.9C8.9 28.9 3.1 23.1 3.1 16S8.9 3.1 16 3.1 28.9 8.9 28.9 16 23.1 28.9 16 28.9z" id="aXMLID_2_"/></svg><svg id="c-dialog-icon-confirm-success" width="34" height="34" viewBox="-785.5 583.5 34 34" x="76" y="34"><style>.bst0,.bst1{fill:#0abf5b}.bst1{clip-path:url(#bSVGID_2_)}</style><path class="bst0" d="M-770.9 602.9l-3.4-3.5-2.1 2.2 3.4 3.4 2.1 2.3 2.3-2.3 8-8-2.1-2.3z"/><defs><path id="bSVGID_1_" d="M-784.5 584.5h32v32h-32z"/></defs><clipPath id="bSVGID_2_"><use xlink:href="#bSVGID_1_" overflow="visible"/></clipPath><path class="bst1" d="M-768.5 584.5c-8.9 0-16 7.1-16 16s7.1 16 16 16 16-7.1 16-16-7.1-16-16-16m0 28.9c-7.1 0-12.9-5.8-12.9-12.9s5.8-12.9 12.9-12.9 12.9 5.8 12.9 12.9-5.8 12.9-12.9 12.9"/></svg><svg id="e-bubble-icon-plaint" width="18" height="18" viewBox="-1 -1 18 18" x="24" y="76"><style>.cst0{fill:#7c848e}</style><path class="cst0" d="M9 7H6v1h1v4h1.9l1-1H9V7zm0-3H7v2h2V4zM8 1C4.1 1 1 4.1 1 8s3.1 7 7 7 7-3.1 7-7-3.1-7-7-7zm0 12c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z"/></svg><svg width="11" height="18" viewBox="-1 -1 11 18" id="face_dialog_icon_arrow_right_gary" x="42" y="76"><path d="M8.485 7.071a1 1 0 0 1 .078 1.327l-.078.087-7.07 7.071L0 14.142l6.364-6.364L0 1.414 1.414 0l7.071 7.071z" fill="#C0C0C8"/></svg><svg width="38" height="38" viewBox="-1 -1 38 38" id="face_dialog_icon_recognition"><g fill="#333" fill-rule="evenodd"><path d="M0 0h10v2H2v8H0V0zm26 0h10v10h-2V2h-8V0zM10 36H0V26h2v8h8v2zm16 0h10V26h-2v8h-8v2zM28.028 15.997v.807h-.004v.328c0 .16 0 .315-.16.643-.647 6.463-5.013 13.099-10.35 13.099S7.815 24.41 7.16 17.77C7 17.61 7 17.456 7 17.128v-1.13C7 8.882 11.69 5 17.514 5c5.824 0 10.514 3.879 10.514 10.997zM16.703 13.09V6.622c-4.526.483-7.434 3.555-7.921 8.085 1.777-.975 4.85-1.458 7.921-1.618zm9.544 1.782c-1.782-.97-4.854-1.618-7.922-1.618V6.622c4.53.32 7.598 3.555 7.922 8.25zM8.786 16.968v.328c.32.81 3.227 2.101 7.921 2.26v-4.853c-4.85.164-7.594 1.454-7.921 2.265zm9.54 2.593v-4.854c5.012.16 7.76 1.454 8.088 2.265v.16c-.323.975-3.076 2.265-8.089 2.429zm0 1.614v8.085c3.395-.647 6.626-4.69 7.601-9.703-1.778.975-4.694 1.618-7.602 1.618zm-9.22-1.614c1.781.97 4.69 1.454 7.601 1.618v8.09c-3.395-.656-6.467-4.855-7.602-9.708z"/></g></svg><svg width="38" height="38" viewBox="-1 -1 38 38" id="face_dialog_icon_scanning" x="38"><path d="M16 16V0H0v16h16zm20 0V0H20v16h16zM2 2h12v12H2V2zm20 0h12v12H22V2zM10 6H6v4h4V6zm20 0h-4v4h4V6zM16 20v16H0V20h16zm11 0h2v7h-2v-7zm-13 2H2v12h12V22zm7-2v4h2v-4h-2zM6 26h4v4H6v-4zm29-6v4h-2v-4h2zm-14 6v10h2V26h-2zm12 0v10h2V26h-2zm-6 3h2v7h-2v-7z" fill="#333" fill-rule="evenodd"/></svg><svg width="38" height="38" viewBox="-1 -1 38 38" id="face_dialog_icon_sweep" y="38"><path d="M10 0H0v10h2V2h8V0zm26 0H26v2h8v8h2V0zm0 17H0v2h36v-2zM0 36h10v-2H2v-8H0v10zm36 0H26v-2h8v-8h2v10z" fill="#333" fill-rule="evenodd"/></svg><svg width="24" height="22" viewBox="-1 -1 24 22" id="icon-checked-multi" y="76"><title>Path 2</title><g id="h测算" fill="none" fill-rule="evenodd"><g id="hGroup-2--Copy" transform="translate(-2744 -1540)"><g id="hGroup" transform="translate(2141 1020)"><g id="hGroup-4" transform="translate(0 492)"><g id="hPath-2" transform="translate(603 28)"><path fill="#00A4FF" d="M22 0L0 20h22z"/><path id="hPath-3" stroke="#FFF" stroke-width="1.5" d="M10.76 13.429l2.391 3.162 3.004-2.662 3.262-2.89"/></g></g></g></g></g><script type="text/javascript">//<![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]></script></svg><svg width="18" height="18" viewBox="-298 388 18 18" id="icon-headerA-close" x="53" y="76"><path fill="#FFF" d="M-283.5 403.5c-.3 0-.5-.1-.7-.3l-11-11c-.4-.4-.4-1 0-1.4.4-.4 1-.4 1.4 0l11 11c.4.4.4 1 0 1.4-.2.2-.4.3-.7.3z"/><path fill="#FFF" d="M-294.5 403.5c-.3 0-.5-.1-.7-.3-.4-.4-.4-1 0-1.4l11-11c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-11 11c-.2.2-.4.3-.7.3z"/></svg><svg id="icon-logo" width="35" height="26" viewBox="-1 -1 35 26" x="38" y="38"><style>.jst0{fill:#fff}</style><path class="jst0" d="M30.8 10.9c-1.4-1.4-3.3-2.3-5.4-2.3-1.8 0-3.4.6-4.8 1.8-.6.5-1.2 1.1-2 1.9-.5.3-12 11.5-12 11.5.6.1 1.4.1 2.2.1h14.5c1.1 0 1.8 0 2.6-.1 1.8-.1 3.5-.8 4.8-2.1 3-3 3.1-7.8.1-10.8zm-2.2 8.7c-.6.6-1.6 1.2-3.4 1.3H13.9c3.4-3.3 6.3-6.1 6.6-6.4.3-.3 1-1 1.6-1.5 1.3-1.2 2.5-1.4 3.3-1.4 1.3 0 2.5.5 3.3 1.4 1.8 1.8 1.7 4.7-.1 6.6z"/><path class="jst0" d="M12.2 10.2c-1.4-1-2.9-1.6-4.6-1.6-2.1 0-4.1.9-5.4 2.3-3 3-2.9 7.8.1 10.8 1.2 1.2 2.7 1.8 4.3 2.1l3-2.9H7.8c-1.7-.1-2.8-.7-3.4-1.3-1.8-1.8-1.9-4.7-.1-6.6.8-.9 2-1.4 3.3-1.4.8 0 1.9.2 3.2 1.3.6.5 2 1.7 2.5 2.2l2.1-2.1c-.9-.9-2.3-2.2-3.2-2.8z"/><path class="jst0" d="M26.2 6.8C24.8 2.9 21 0 16.5 0 11.4 0 7.2 3.8 6.4 8.7c.4-.1.8-.1 1.3-.1.6 0 1.2.1 1.7.2C10.1 5.5 13 3 16.5 3c2.9 0 5.4 1.7 6.6 4.2 0 0 0 .1.1 0 .8-.2 1.9-.3 2.9-.2.1 0 .1-.1.1-.2z"/></svg></svg>

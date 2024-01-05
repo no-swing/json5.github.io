@@ -1,0 +1,366 @@
+ul,li{list-style:none;}
+button{
+    outline:none;
+}
+.blogs-message{
+    margin: 0;
+    padding: 0 10px;
+    line-height: 46px;
+    background-color: #f3f4f6;
+    color: #333;
+}
+.blogs-name{
+    margin: 0;
+    border: .5px solid #f3f4f6;
+    padding: 10px 14px;
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+}
+.blogs-name-span{
+    float: left;
+    margin-right: 30px;
+    letter-spacing: 5px;
+    text-align: justify;
+    font-size: 14px;
+    color: #999;
+    padding: 0;
+    line-height: 35px;
+}
+
+.modified-btn{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+
+}
+.modifiedBtn{
+    border-color: transparent;
+    color: #409EFF;
+    background: 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+    line-height: 24px;
+    margin-right: 10px;
+}
+#modifiedBtn:hover{
+    border-bottom:1px solid #409EFF ;
+}
+#noModified:hover{
+    border-bottom:1px solid #409EFF ;
+}
+.blogs-input{
+    -webkit-appearance: none;
+    background-color: #FFF;
+    background-image: none;
+    border-radius: 4px;
+    border: 1px solid #DCDFE6;
+    box-sizing: border-box;
+    color: #606266;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding: 0 15px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+    width: 100%;
+}
+.down-font{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #C0C4CC;
+}
+.sex-parent{
+    cursor: pointer;
+}
+.none-parent{
+    width: 240px;
+    position: absolute;
+    left: 120px;
+    top: 55px;
+    border: 1px solid #E4E7ED;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px 0;
+    display: none;
+    z-index: 1;
+}
+.none-parent-ul>li{
+    font-size: 14px;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #606266;
+    height: 34px;
+    line-height: 34px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.none-parent-ul>li:hover{
+    background-color: #F5F7FA;
+}
+.none-parent-ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#modifiedyes{
+    display: none;
+    width: 80px;
+    height: 28px;
+    font-size: 12px;
+    border-radius: 3px !important;
+    color: #FFF;
+    background-color: #409EFF;
+    border-color: #409EFF;
+    border: 1px solid #409eff;
+    margin-left: 5px;
+}
+
+/*学历模板*/
+.education-parent{
+    cursor: pointer;
+}
+.education-none-parent{
+    width: 240px;
+    position: absolute;
+    left: 120px;
+    top: 55px;
+    border: 1px solid #E4E7ED;
+    background-color: #FFF;
+    -webkit-box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px 0;
+    display: none;
+}
+.education-none-parent-ul>li:hover{
+    background-color: #F5F7FA;
+}
+.education-none-parent-ul>li{
+    font-size: 14px;
+    padding: 0 20px;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #606266;
+    height: 34px;
+    line-height: 34px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.education-none-parent-ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+/*学历模板up*/
+
+.register-time{
+    -webkit-appearance: none;
+    background-color: #FFF;
+    background-image: none;
+    border-radius: 4px;
+    color: #606266;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    outline: 0;
+    padding-left: 10px;
+}
+#signature{
+    resize: vertical;
+    padding: 5px 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 100%;
+    color: #606266;
+    background-color: #FFF;
+    background-image: none;
+    border: 1px solid #DCDFE6;
+    border-radius: 4px;
+    transition: border-color .2s cubic-bezier(.645,.045,.355,1);
+}
+.iconqueren{
+    color: #67c23a;
+    font-size: 12px;
+}
+.modified-btn-span{
+    color: #67c23a;
+    font-size: 12px;
+}
+.modified-btn-span{
+    padding-right: 10px;
+    border-right: 1px solid #ddd;
+}
+.password-alter{
+    padding-left: 10px;
+    float: unset !important;
+}
+.no-bind{
+    color: #e6a23c;
+    font-size: 12px;
+}
+.icongantan{
+    color: #e6a23c;
+    font-size: 12px;
+}
+.password-alter>span{
+    color: #409EFF;
+}
+
+.password-alter>span:hover{
+    border-bottom: 1px solid #409EFF;
+}
+.blogsName-parent-p{
+    display: none;
+    position: absolute;
+    bottom: 6px;
+    left: 6px;
+    margin-bottom: 0px;
+    color: white;
+    margin-top: 0px;
+}
+/*
+input[type=file]{
+    display: none;
+}*/
+.over-n{
+    overflow: hidden;
+}
+
+/*layui 弹窗css*/
+input::-webkit-input-placeholder{
+    color: rgba(204, 204, 204, 1);
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+.layui-layer-title{
+    border-bottom: 1px solid white !important;
+    background-color: white !important;
+    text-align: center;
+    font-size: 20px !important;
+    margin-left: 55px;
+    margin-top: 10px;
+
+}
+.layui-layer-setwin{
+    top: 25px !important;
+}
+.layui-layer-content{
+    padding: 20px;
+}
+.password-alter-box{
+    margin-top: 20px;
+}
+.password-alter-box>input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+    border-radius: 4px !important;
+    border: 1px solid gainsboro;
+    padding: 0px 10px;
+    position: relative;
+}
+.password-span{
+    position: absolute;
+    top: 48px;
+    right: 35px;
+}
+.new-password-span{
+    top: 130px !important;
+}
+.hint-p{
+    display: none;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    position: absolute;
+    bottom: 110px;
+    color: red;
+    font-size: 12px;
+}
+.password-span-i{
+    color: #C0C4CC;
+}
+.iconcuowu1{
+    color: red;
+}
+.layui-layer-btn{
+    text-align: right;
+    padding: 0 15px 12px;
+    pointer-events: auto;
+    -webkit-user-select: none;
+    position: absolute;
+    top: 270px;
+    width: 100%;
+}
+.layui-layer-btn a{
+    width: 100%;
+    height: 40px !important;
+    line-height: 40px !important;
+    text-align: center;
+    margin: 5px 5px 0;
+    padding: 0 15px;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    color: #333;
+    border-radius: 2px;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 20px !important;
+}
+.display-block{
+    display: block !important;
+}
+.border-color{
+    border-color: #F56C6C !important;
+}
+.password-span-i2{
+    display: none;
+}
+
+/*修改手机 弹窗css*/
+#verificationCode{
+    width: 60% !important;
+}
+.verification-code{
+    border: 1px solid #409eff;
+    padding: 9px 21px;
+    border-radius: 4px !important;
+    color: #409eff;
+    cursor: pointer;
+}
+.hint-phone-p{
+    bottom: 190px !important;
+}
+
+/*QQ弹窗*/
+.QQ-p{
+    margin-top: 0px !important;
+    text-align: center;
+}
+
+
+
+
+#noModified{
+    display: none;
+}
+.display-none{
+    display: none !important;
+}
+.border-white{
+    border: 1px solid white !important;
+}
+

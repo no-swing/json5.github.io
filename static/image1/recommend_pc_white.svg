@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="330px" height="138px" viewBox="0 0 330 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>活动推荐/浅色_PC</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="33.0744545%" y1="49.2977232%" x2="90.3972679%" y2="51.060672%" id="linearGradient-1">
+            <stop stop-color="#EDF4FA" offset="0%"></stop>
+            <stop stop-color="#EEF3F6" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="活动推荐/浅色_PC" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="分组-3">
+            <polygon id="路径" fill="#F8FBFD" points="330 0 330 37.943477 254.871923 63.8121484 158.497546 39.7833173 274.036688 0"></polygon>
+            <polygon id="路径" fill="#F7FBFF" points="330 46.4044425 330 82.5436817 269.124236 67.365649"></polygon>
+            <polygon id="路径" fill="#F0F5F8" points="330 99.9752087 330 130.591904 278.426841 117.733271 330 99.9752087"></polygon>
+            <polygon id="路径" fill="#F1F7FC" points="12 97.469073 0.416901408 94.4333496 12 90.2264675 63.6729876 72.434031 160.047365 96.4628621 96.1743659 118.4561"></polygon>
+            <polygon id="路径" fill="url(#linearGradient-1)" points="64.2099609 138 174.299678 100.016363 325 138"></polygon>
+            <polygon id="路径" fill="#F7FBFE" points="77.5613579 67.6518816 144.609175 44.5654667 240.983553 68.5942978 173.935736 91.6807127"></polygon>
+        </g>
+    </g>
+</svg>
